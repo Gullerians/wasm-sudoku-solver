@@ -1,0 +1,6 @@
+/.idea
+.idea
+/target
+**/*.rs.bk
+Cargo.lock
+.cargo-ok
