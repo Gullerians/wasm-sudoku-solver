@@ -22,6 +22,8 @@ impl Sudoku {
         let mut grid = Vec::with_capacity(9);
 
         for _ in 0..9 {
+            let mut input_text = String::new();
+
             let vec: Vec<usize> = input_text
                 .trim()
                 .split(' ')
