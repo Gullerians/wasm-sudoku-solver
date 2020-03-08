@@ -4,7 +4,20 @@
     <meta charset="utf-8">
     <title>Wasm Sudoku Solver</title>
 </head>
-<body>
+<style>
+    #sudoku-canvas {
+        border: 5px solid black;
+        background-size: 100%;
+    }
+</style>
+<body bgcolor="white">
+<div style="text-align: center;">
+    <canvas id="sudoku-canvas" width="567" height="567">
+        Canvas not supported
+    </canvas>
+</div>
+<canvas id="sudoku-numbers" width="99" height="99"></canvas>
+<link rel="stylesheet" type="text/css" href="index.css">
 <script src="./bootstrap.js"></script>
 <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
 </body>
