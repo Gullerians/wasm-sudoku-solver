@@ -3,6 +3,9 @@ name = "wasm-sudoku-solver"
 version = "0.1.0"
 authors = ["sn99 <siddharthn.099@gmail.com>"]
 edition = "2018"
+description = "A sudoku solver in wasm"
+license = "MIT or APACHE"
+repository = "https://github.com/sn99/wasm-sudoku-solver"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

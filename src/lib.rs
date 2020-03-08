@@ -12,7 +12,7 @@ use wasm_bindgen::prelude::*;
 static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
 #[wasm_bindgen]
-struct Sudoku {
+pub struct Sudoku {
     grid: Vec<Vec<usize>>
 }
 
